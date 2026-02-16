@@ -1,0 +1,138 @@
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg,#1f4ea3,#173d86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.page {
+    text-align: center;
+    width: 100%;
+}
+
+.main-title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #f4f6fb;
+    width: 90%;
+    max-width: 380px;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.card-header {
+    background: linear-gradient(180deg,#2f65c7,#1f4ea3);
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-weight: 600;
+    color: #1c2b4a;
+    display: block;
+    margin: 12px 0 6px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cfd6e6;
+    background: #e9edf6;
+    outline: none;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    min-height: 90px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #2f65c7;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(47,101,199,0.2);
+}
+
+.upload-box {
+    border: 2px dashed #cbd3e6;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    background: #eef2fa;
+}
+
+.upload-box:hover {
+    border-color: #2f65c7;
+    background: #e3eafc;
+}
+
+.upload-icon {
+    font-size: 28px;
+}
+
+.upload-btn {
+    background: #2f65c7;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.upload-btn:hover {
+    transform: translateY(-2px);
+}
+
+#preview {
+    display: none;
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg,#2f65c7,#1f4ea3);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+}
+
+.hidden {
+    display: none;
+}
